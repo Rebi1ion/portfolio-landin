@@ -1,0 +1,48 @@
+:root {
+  color-scheme: dark;
+
+  --color-page: #070400;
+  --color-surface: #0d0600;
+  --color-header: #120900;
+  --color-pill: #0e0700;
+  --color-border-subtle: #2a1a00;
+  --color-border-strong: #3d2700;
+  --color-muted: #5c3a00;
+  --color-warning: #7a4d00;
+  --color-text-muted: #8a5a00;
+  --color-accent-muted: #b36b00;
+  --color-text: #e08800;
+  --color-text-accent: #e88a00;
+  --color-accent: #ff9500;
+  --color-accent-bright: #ffb000;
+  --color-highlight: #ffcc66;
+
+  --font-display: 'Press Start 2P', 'Roboto Mono', monospace;
+  --font-terminal: 'VT323', 'Roboto Mono', monospace;
+  --font-mono: 'Roboto Mono', monospace;
+
+  --text-xs: clamp(0.62rem, 0.58rem + 0.14vw, 0.7rem);
+  --text-sm: clamp(0.72rem, 0.68rem + 0.14vw, 0.8rem);
+  --text-body: clamp(1.2rem, 1.12rem + 0.3vw, 1.45rem);
+  --text-lead: clamp(1.25rem, 1.12rem + 0.45vw, 1.6rem);
+  --text-hero: clamp(2.35rem, 7vw, 4.8rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  --container-width: 76rem;
+  --border-thin: 1px;
+  --border-strong: 2px;
+  --focus-ring: 0 0 0 3px rgba(255, 176, 0, 0.32);
+  --glow-soft: 0 0 2.5rem rgba(255, 140, 0, 0.1), inset 0 0 5rem rgba(255, 140, 0, 0.04);
+  --glow-text: 0 0 0.65rem rgba(255, 176, 0, 0.55);
+}
+
